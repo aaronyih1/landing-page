@@ -87,6 +87,7 @@ ol, ul {
 section{
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
+	background-position: -12em 0em;
 }
 
 section > div{
