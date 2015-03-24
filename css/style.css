@@ -42,7 +42,7 @@ ol, ul {
 }
 .masthead{
 	background-color: white;
-	width: cover;
+	width: 100%;
 	height:71px;
 	position: fixed;
 }
@@ -82,4 +82,20 @@ ol, ul {
 }
 #Meet-Karma:hover{
 	color:#4b4a4a;
+}
+
+section{
+	background-image: url(../images/background.jpg);
+}
+
+section > div{
+	width:cover;
+	height:730px;
+}
+
+section > .text{
+	color: white;
+	text-align: center;
+	position:relative;
+	top: -10em;
 }
