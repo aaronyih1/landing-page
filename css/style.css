@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: LightGrey;
 }
 ol, ul {
 	list-style: none;
@@ -42,7 +43,53 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+div{
+	/*border: 1px solid Chocolate;*/
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.masthead{
+	background-color: white;
+	width: cover;
+	height:71px;
+}
+
+.masthead > img{
+	width:26px;
+	display: block;
+	position: fixed;
+	left: 5em;
+	top:1em;
+}
+
+.masthead >ul{
+	display:block;
+	position: fixed;
+	right: 5em;
+	top: 1.85em;
+}
+.masthead > ul >li{
+	display: inline;
+	list-style-type:none;
+	padding-right:1.2em;
+}
+
+.masthead > ul > li > a {
+		text-decoration: none;
+		font-family: 'Roboto';
+		color:#c3c3c3;
+}
+.masthead > ul > li > a:hover {
+		color: #696969;
+
+}
+#Meet-Karma{
+	color:#696969;
+	font-weight: 600;
+}
+#Meet-Karma:hover{
+	color:#4b4a4a;
 }
