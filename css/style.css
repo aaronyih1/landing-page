@@ -45,6 +45,7 @@ ol, ul {
 	width: 100%;
 	height:71px;
 	position: fixed;
+	z-index: 1000;
 }
 
 .masthead > img{
@@ -84,7 +85,7 @@ ol, ul {
 	color:#4b4a4a;
 }
 
-section{
+.middle{
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-position: -12em 0em;
@@ -110,6 +111,8 @@ h3{
 	position:relative;
 	top:17rem;
 	font-family: 'Roboto';
+}
+#subheading{
 	font-size: 1.563rem;
 	font-weight: 300;
 	margin-top: 1.25rem;
@@ -139,4 +142,47 @@ h3{
 	color:white;
 	font-family: 'Roboto';
 	font-size: 1.125rem;
+}
+
+.footer{
+	width: cover;
+	height: 525px;
+	background-color: white;
+}
+
+.footer > h2{
+	color:black;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin-top: 3em;
+	margin-bottom: 1.1em;
+}
+
+.text{
+	color:black;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 1.5em;
+	font-style: none;
+
+}
+
+table{
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.image-wrapper{
+	width:127px;
+	height:127px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.7em;
+}
+.imagewrapper > img{
+	width:100%;
+	height:100;
 }
