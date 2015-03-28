@@ -148,6 +148,7 @@ h3{
 	width: cover;
 	height: 525px;
 	background-color: white;
+	text-align: center;
 }
 
 .footer > h2{
@@ -162,7 +163,6 @@ h3{
 
 .text{
 	color:black;
-	text-align: center;
 	font-family: 'Roboto';
 	font-size: 1.5em;
 	font-style: none;
@@ -184,5 +184,20 @@ table{
 }
 .imagewrapper > img{
 	width:100%;
-	height:100;
+	height:100%;
+}
+
+hr{
+	display: block;
+}
+.footer > hr{
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	margin-top: 9rem;
+}
+
+h5{
+	text-align: center;
 }
